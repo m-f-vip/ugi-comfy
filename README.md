@@ -1,24 +1,33 @@
 # ugi-comfy
 ugi-comfy is a ComfyUI plugin for ugly AGI. 丑字AGI的ComfyUI插件。
 
-# 📘 UGI-Comfy 插件使用文档
+# 📘 UGI-Comfy 插件使用文档 usage documentation
 下载后，请解压，标准zip格式
-下载地址：
+After downloading, please unzip in standard zip format
 
-魔塔：https://www.modelscope.cn/models/bd25vip/ugi-comfy
+下载地址Download link：
 
-github：https://github.com/m-f-vip/ugi-comfy
+- modelscope魔塔：https://www.modelscope.cn/models/bd25vip/ugi-comfy
+- github：https://github.com/m-f-vip/ugi-comfy
 
 <video src="./doc/ugi26bar2.mp4" controls width="100%"></video>
 
 ![UGI丑字AGI](./doc/UGI丑字AGI-db.png)
 
-zw-ps：zw全网首发的汉字text-mask，包括专业术语，可以解决大模型99%汉字乱笔问题，是zw骨架网的基本应用之一。大家发paper的时候，记得原创是zw。
+zw-ps：
+zw全网首发的汉字text-mask，包括专业术语，可以解决大模型99%汉字乱笔问题，是zw骨架网的基本应用之一。大家发paper的时候，记得原创是zw。
+ZW's first Chinese character text mask on the entire network, including professional terminology, can solve 99% of the problem of messy Chinese characters in large models, and is one of the basic applications of ZW skeleton network. When posting papers, remember that the original work is ZW.
 
-## 1. 简介
+
+## 1. 简介Introduction
 `ugi-comfy` 是丑字AGI的ComfyUI插件。
+`Ugi cofy 'is a ComfyUI plugin for ugly AGI.
+
 专为 ComfyUI 设计的广告/海报/短视频生成套件，可广泛用于AIGC图片生成，动态banner广告，ppt素材，电商海报，短视频片头，mv字幕，游戏素材等各种领域。
+The advertising/poster/short video generation kit designed specifically for ComfyUI can be widely used in various fields such as AIGC image generation, dynamic banner advertising, PPT materials, e-commerce posters, short video opening titles, MV subtitles, game materials, etc.
+
 它不需要加载任何扩散模型，就能直接通过本地 TTF 字体或远程 API 生成高精度的 32位透明通道文字 Mask，并将该 Mask 无缝接入下游的 SD/Flux 图像重绘，最后结合音频自动压制 MP4。
+It does not require loading any diffusion model, and can directly generate high-precision 32-bit transparent channel text masks through local TTF fonts or remote APIs, seamlessly integrate the mask into downstream SD/Flux image redrawing, and finally automatically suppress MP4 with audio.
 
 
 ![UGI丑字AGI](./doc/ugi26bar9.png)
