@@ -10,7 +10,7 @@ After downloading, please unzip in standard zip format
 - modelscope魔塔：https://www.modelscope.cn/models/bd25vip/ugi-comfy
 - github：https://github.com/m-f-vip/ugi-comfy
 
-<video src="./doc/ugi26bar2.mp4" controls width="100%"></video>
+<video src="./blob/main/doc/ugi26bar2.mp4" controls width="100%"></video>
 
 
 ![UGI丑字AGI](./doc/UGI丑字AGI-db.png)
